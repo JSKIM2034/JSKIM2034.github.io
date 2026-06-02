@@ -226,6 +226,9 @@
   /* 비서 고양이 GIF - 작게 가운데 */
   .cat-wrap{background:#1a1d2e;padding:24px;display:flex;align-items:center;justify-content:center}
   .cat-gif{width:160px;max-width:55%;border-radius:10px;display:block;background:transparent}
+  /* 비서 가동 버튼 캡처 (납작) - 어두운 배경 가운데, 위에 살짝 여백 */
+  .agent-img-wrap{background:#1a1d2e;padding:22px 18px 8px;display:flex;align-items:center;justify-content:center}
+  .agent-img-wrap img{max-width:100%}
 
   @media(max-width:720px){
     .ba-grid{grid-template-columns:1fr;gap:30px}
@@ -498,6 +501,9 @@
         <div class="feat-shot">
           <div class="shot">
             <div class="shot-bar"><i></i><i></i><i></i><span>메일릿 · 비서 가동</span></div>
+            <div class="agent-img-wrap">
+              <img src="7-agent.png" alt="비서 가동 버튼" style="width:100%;display:block;border-radius:4px">
+            </div>
             <div class="cat-wrap">
               <img src="maillit-cat.gif" alt="메일릿 비서가 자동으로 메일을 분류하는 모습" class="cat-gif">
             </div>
